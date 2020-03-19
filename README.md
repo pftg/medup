@@ -1,4 +1,6 @@
 # Medup
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpftg%2Fmedup.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpftg%2Fmedup?ref=badge_shield)
+
 
 [![](https://img.shields.io/github/release/miry/medup.svg?style=flat)](https://github.com/miry/medup/releases)
 [![](https://img.shields.io/github/license/miry/medup)](https://raw.githubusercontent.com/miry/medup/master/LICENSE)
@@ -67,3 +69,7 @@ $ curl -s -H "Content-Type: application/json" "https://medium.com/_/api/users/fd
 $ cat stream.json| jq ".payload.references.Post[].title"
 $ cat stream.json| jq ".payload.paging.next"
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpftg%2Fmedup.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpftg%2Fmedup?ref=badge_large)
